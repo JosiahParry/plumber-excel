@@ -1,0 +1,8 @@
+b_url <- "http://127.0.0.1:5846/excel"
+file = "test.xls"
+
+x <- POST(b_url, body = list(req = upload_file(file)))
+
+content(x, type = "text/json") %>% 
+  jsonlite::fromJSON() %>% 
+  tibble::as_tibble()

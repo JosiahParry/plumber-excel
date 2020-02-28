@@ -1,0 +1,16 @@
+Posting Excel files with Plumber
+================
+
+This repository contains a small example of a plumber API which can
+takes an Excel file via POST request, then reads that file and returns
+it as plain text.
+
+There are 4 R scripts in this repository.
+
+  - `plumber.R` defines the plumber API
+  - `activate.R` starts the micro-service on the local host
+  - `post_excel.R` contains a function definition to POST files and
+    return a tibble
+  - `example.R` will start the plumber service, load the `post_excel()`
+    function, and run it on the `test.xls` file included in the
+    repository (contains American Community Survey data)

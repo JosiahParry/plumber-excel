@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1582919253204.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2673413740",
+    "id" : "387CCC9",
+    "lastKnownWriteTime" : 1582919377,
+    "last_content_update" : 1582919377180,
+    "path" : "~/GitHub/plumber-excel/example.R",
+    "project_path" : "example.R",
+    "properties" : {
+        "cursorPosition" : "7,28",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

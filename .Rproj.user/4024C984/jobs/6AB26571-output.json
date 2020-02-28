@@ -1,0 +1,1 @@
+[2,"Starting server to listen on port 5846\ncreateTcpServer: address already in use\nError in .subset2(public_bind_env, \"initialize\")(...) : \n  Failed to create server\nCalls: sourceWithProgress ... <Anonymous> -> startServer -> <Anonymous> -> <Anonymous>\nExecution halted\n"]
